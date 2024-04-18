@@ -217,7 +217,7 @@ export const useChatHandler = () => {
         ...availableLocalModels,
         ...availableOpenRouterModels
       ].find(llm => llm.modelId === chatSettings?.model)
-      console.log(chatSettings)
+
       validateChatSettings(
         chatSettings,
         modelData,

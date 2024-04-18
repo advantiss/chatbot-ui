@@ -1,22 +1,11 @@
 {
-  "short_name": "Prozorro assistance",
-  "name": "Prozorro assistance",
+  "short_name": "Prozorro AI Agent",
+  "name": "Prozorro AI Agent",
   "icons": [
     {
-      "src": "/icon-192x192.png",
-      "type": "image/ico",
+      "src": "/Favicon 180x180 - dark.svg",
+      "type": "image/svg",
       "sizes": "192x192"
-    },
-    {
-      "src": "/icon-256x256.png",
-      "type": "image/png",
-      "sizes": "256x256"
-    },
-    {
-      "src": "/icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose":"maskable"
     }
   ],
   "start_url": "/",

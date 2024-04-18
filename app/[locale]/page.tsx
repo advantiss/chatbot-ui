@@ -4,6 +4,7 @@ import { ChatbotUISVG } from "@/components/icons/chatbotui-svg"
 import { IconArrowRight } from "@tabler/icons-react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
+import { useEffect } from "react"
 
 export default function HomePage() {
   const { theme } = useTheme()
@@ -14,7 +15,7 @@ export default function HomePage() {
         <ChatbotUISVG theme={theme === "dark" ? "dark" : "light"} scale={0.3} />
       </div>
 
-      <div className="mt-2 text-4xl font-bold">Prozorro assistance</div>
+      <div className="mt-2 text-4xl font-bold">Prozorro AI Agent</div>
 
       <Link
         className="mt-4 flex w-[200px] items-center justify-center rounded-md bg-blue-500 p-2 font-semibold"

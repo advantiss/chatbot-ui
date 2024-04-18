@@ -734,7 +734,7 @@ export const ProfileSettings: FC<ProfileSettingsProps> = ({}) => {
             <WithTooltip
               display={
                 <div>
-                  Download Prozorro assistance 1.0 data as JSON. Import coming
+                  Download Prozorro AI Agent 1.0 data as JSON. Import coming
                   soon!
                 </div>
               }
