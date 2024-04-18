@@ -10,6 +10,7 @@ import { FC, HTMLAttributes } from "react"
 import { AnthropicSVG } from "../icons/anthropic-svg"
 import { GoogleSVG } from "../icons/google-svg"
 import { OpenAISVG } from "../icons/openai-svg"
+import { OllamaCppSVG } from "@/components/icons/ollamacpp"
 
 interface ModelIconProps extends HTMLAttributes<HTMLDivElement> {
   provider: ModelProvider
@@ -79,6 +80,18 @@ export const ModelIcon: FC<ModelIconProps> = ({
     case "google":
       return (
         <GoogleSVG
+          className={cn(
+            "rounded-sm bg-white p-1 text-black",
+            props.className,
+            theme === "dark" ? "bg-white" : "border-DEFAULT border-black"
+          )}
+          width={width}
+          height={height}
+        />
+      )
+    case "ollamacpp":
+      return (
+        <OllamaCppSVG
           className={cn(
             "rounded-sm bg-white p-1 text-black",
             props.className,
